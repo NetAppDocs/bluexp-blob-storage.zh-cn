@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, limitations, known issues, enhancements, fixes' 
+summary: 了解BlueXP中的Azure Blb Storage的新增功能。 
+---
+= BlueXP中的Azure Blb存储新增功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解BlueXP中的Azure Blb Storage的新增功能。
+
+
+
+== 2023年6月5日
+
+
+
+=== 能够从BlueXP添加新存储帐户
+
+您已有一段时间可以在BlueXP Canvs上查看Azure Blb Storage了。现在、您可以直接从BlueXP添加新存储帐户并更改现有存储帐户的属性。 https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["了解如何添加新的Azure Blb存储帐户"^]。

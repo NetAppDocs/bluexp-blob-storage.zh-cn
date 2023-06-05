@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts 
+summary: 在Canvas中提供Azure Blb存储工作环境后、您可以直接从BlueXP添加其他存储帐户。 
+---
+= 添加Azure Blb存储帐户
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在Canvas中提供Azure Blb存储工作环境后、您可以直接从BlueXP添加其他存储帐户。
+
+.步骤
+. 在"画布"中、双击Azure Blob存储工作环境以查看Azure Blob存储概述页面、然后单击*添加存储帐户*。
++
+image:screenshot-add-blob-storage-button.png["显示Azure Blb存储工作环境详细信息和添加存储帐户按钮的屏幕截图。"]
+
++
+此时将显示_Add storage account_页面。
+
++
+image:screenshot-add-blob-storage.png["显示\"添加存储帐户\"页面的屏幕截图、用于创建您自己的Azure Blb存储帐户。"]
+
+. 在_Project详细信息_部分中输入所需信息。
++
+[cols="25,75"]
+|===
+| 字段 | Description 
+
+
+| 订阅。 | 为新存储帐户选择Azure订阅。 
+
+
+| Resource group  a| 
+为此存储帐户选择现有资源组。
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["了解有关资源组的更多信息"^]。
+
+|===
+. 在_instance_Details部分中、输入存储帐户的名称、然后选择要创建存储帐户的一个或多个区域。
++
+[cols="25,75"]
+|===
+| 字段 | Description 
+
+
+| 存储帐户名称 | 输入要用于存储帐户的名称。此名称的长度必须介于3到24个字符之间、并且只能包含数字和小写字母。 
+
+
+| Azure 区域  a| 
+从列表中选择要创建存储帐户的区域。
+
+为您的存储帐户选择适当的区域。 https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["有关Azure区域和可用性区域的信息、请参见Microsoft文档"^]。
+
+并非所有类型的存储帐户或冗余配置都支持所有区域。 https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["有关Azure存储冗余的信息、请参见Microsoft文档"^]。
+
+此外、选择区域可能会影响计费。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["有关Azure存储帐户计费的信息、请参见Microsoft文档"^]。
+
+
+
+| 性能类型  a| 
+选择要使用*标准*还是*高级*性能存储。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["有关存储帐户类型的信息、请参见Microsoft文档"^]。
+
+** _Standard"性能用于通用v2存储帐户。建议在大多数情况下使用此类帐户。
+** _Premum_性能用于需要低延迟的情形。可以使用三种类型的高级存储帐户：块blobs、文件共享和页面blobs。
+
+
+|===
+. 在_tags_部分中、您最多可以输入10个标记键/值对来对资源进行分组。
++
+标记是元数据、可用于对资源进行分组、以确定应用程序、环境、区域、云提供商等。您可以向存储帐户添加标记、以便在将对象添加到存储帐户时将其应用于对象。
+
++
+默认情况下、在BlueXP创建的新存储帐户中、标记处于禁用状态。 https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["从Microsoft文档中了解有关标记的更多信息"^]。
+
+. 在_Encryption部分中、选择要用于保护对存储帐户中数据的访问的数据加密类型。
++
+[cols="25,75"]
+|===
+| 数据加密类型 | Description 
+
+
+| Microsoft管理的密钥 | 默认情况下、Microsoft管理的加密密钥用于对数据进行加密。 
+
+
+| 客户管理的密钥  a| 
+您可以使用自己的客户管理密钥进行数据加密、而不是使用默认的Microsoft管理加密密钥。如果您计划使用自己的客户管理密钥、则需要事先创建这些密钥、以便在此页面中选择密钥库和密钥。
+
+密钥可以与存储帐户位于同一订阅中、也可以选择其他订阅。
+
+|===
++
+请参见的Microsoft Azure文档 https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["有关Microsoft托管密钥的详细信息"^]，和 https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["有关客户管理密钥的详细信息"^]。
+
+. 单击*Add*(添加)，将创建存储分段。
+
