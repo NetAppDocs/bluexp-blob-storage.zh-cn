@@ -123,7 +123,6 @@
   <block id="3bec690d07df1a3a36c8a3122654fc24" category="section-title">2023年6月5日</block>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">能够从BlueXP添加新存储帐户</block>
   <block id="a39e8d6ee8bc43ef75656b419fe7a86e" category="inline-link">了解如何添加新的Azure Blb存储帐户</block>
-  <block id="34738f8a469a7971575b53ff1435539f" category="paragraph">您已有一段时间可以在BlueXP Canvs上查看Azure Blb Storage了。现在、您可以直接从BlueXP添加新存储帐户并更改现有存储帐户的属性。<block ref="7f415337c5df45cbb7bfeb019667a476" category="inline-link-rx"></block>。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
@@ -308,4 +307,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">要为Cloud Volumes ONTAP启用以下关键工作流、需要将NetApp支持站点凭据与您的BlueXP  组织相关联：</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将NSS凭据与您的BlueXP  组织相关联与与与BlueXP  用户登录相关联的NSS帐户不同。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
+  <block id="3e9d2d36df8c91d7e9151cc5775042a8" category="paragraph">您已有一段时间可以在BlueXP Canvs上查看Azure Blb Storage了。现在、您可以直接从BlueXP  添加新存储帐户并更改现有存储帐户的属性。<block ref="432ae671c636de993f8b5290b51ad53f" category="inline-link-rx"></block>(英文)。</block>
 </blocks>

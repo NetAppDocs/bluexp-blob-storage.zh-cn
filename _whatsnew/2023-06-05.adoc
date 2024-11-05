@@ -1,0 +1,9 @@
+= 能够从BlueXP添加新存储帐户
+:allow-uri-read: 
+
+
+
+
+=== 能够从BlueXP添加新存储帐户
+
+您已有一段时间可以在BlueXP Canvs上查看Azure Blb Storage了。现在、您可以直接从BlueXP  添加新存储帐户并更改现有存储帐户的属性。 https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["了解如何添加新的Azure Blb存储帐户"](英文)。
